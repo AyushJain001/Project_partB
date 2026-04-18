@@ -7,3 +7,5 @@ __pycache__/
 *.out
 *.toc
 G_5_results/*.json
+
+
