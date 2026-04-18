@@ -58,7 +58,7 @@ For final submission, keep the plot scripts hardcoded using your measured values
 ## Submission Naming Conventions (Critical)
 
 - Zip file: `G_5_Part_B_nameOfProject.zip`
-- Every file should follow naming convention with `G_5_` prefix.
+- Every file should follow naming convention with `G_5` prefix.
 - Use only `.zip` extension, no binaries.
 - Plot scripts should be `.py` and use hardcoded values for final submission.
 
