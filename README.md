@@ -21,7 +21,7 @@ The comparison is performed under a controlled microservice workload and focuses
 1. Group Number: 5
 2. Ayush Jain - MT25066
 3. Singh Tharun - MT25087
-4. Ruchir Jain - MT25080
+4. Ruchir Jain - MT25080 
 
 ## 3. Repository Structure
 
@@ -40,7 +40,6 @@ Run on Linux with the following available:
 1. Docker
 2. Bash
 3. Python 3
-4. Internet access (for pulling images/tools)
 
 The setup script handles most tool bootstrapping used by this project.
 
@@ -152,16 +151,9 @@ chmod +x G_5_scripts/*.sh
 ./G_5_artifacts/G_5_venv/bin/pip install -r G_5_requirements.txt
 ```
 
-## 11. Submission Notes
 
-This GitHub repository is maintained as source code + scripts + plots + results + report artifacts.
 
-Per final constraints used in this repository state:
-
-1. `G_5_results/` stores CSV deliverables for all 3 CNIs.
-2. JSON raw artifacts are excluded from tracked result files.
-
-## 12. Quick Run Checklist
+## 11. Quick Run Checklist
 
 Use this short sequence if starting fresh:
 
@@ -184,3 +176,8 @@ chmod +x G_5_scripts/*.sh
 ./G_5_scripts/G_5_run_benchmark.sh cilium
 ./G_5_scripts/G_5_collect_metrics.sh cilium
 ```
+
+
+
+
+##Thank You 
