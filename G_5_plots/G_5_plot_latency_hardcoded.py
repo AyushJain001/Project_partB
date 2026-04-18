@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 
-# Hardcoded values derived from measured CSV files for final submission.
 
 qps = [100, 300, 500]
 flannel_p99 = [1.5, 1.6, 1.7]
@@ -9,7 +8,6 @@ cilium_p99 = [1.6, 1.8, 1.6]
 
 plt.figure(figsize=(10, 6))
 
-# Draw Calico first so overlapping Flannel points remain visible on top.
 plt.plot(
 	qps,
 	calico_p99,
